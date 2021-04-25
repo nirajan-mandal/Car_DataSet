@@ -1,4 +1,4 @@
-console.log('Hello TensorFlow');
+//console.log('Hello TensorFlow');
 
 /**
  * Get the car data reduced to just the variables we are interested
@@ -125,8 +125,8 @@ async function trainModel(model, inputs, labels) {
     metrics: ['mse'],
   });
   
-  const batchSize = 16;//default to 32
-  const epochs = 20; //50 might get better rust but the results are stable by 30
+  const batchSize = 32;//default to 32
+  const epochs = 50; //50 might get better rust but the results are stable by 30
   
   return await model.fit(inputs, labels, {
     batchSize,
