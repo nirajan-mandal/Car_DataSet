@@ -125,8 +125,8 @@ async function trainModel(model, inputs, labels) {
     metrics: ['mse'],
   });
   
-  const batchSize = 32;
-  const epochs = 20;
+  const batchSize = 16;//default to 32
+  const epochs = 20; //50 might get better rust but the results are stable by 30
   
   return await model.fit(inputs, labels, {
     batchSize,
