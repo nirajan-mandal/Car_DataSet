@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Predictions from 2D Data</title>
+# Car DataSet
+This project was implemented learning tutorial from [Google Codelab](https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html#0)
 
-  <!-- Import TensorFlow.js -->
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
-  <!-- Import tfjs-vis -->
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
-
-  <!-- Import the main script file -->
-  <script src="script.js"></script>
-
-</head>
-
-<body>
-</body>
-</html>
+![alt text](https://github.com/nirajan-mandal/Car_DataSet/blob/main/prediction.png "Prediction")
